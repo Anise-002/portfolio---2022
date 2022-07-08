@@ -1,0 +1,64 @@
+.nav-list {
+    display: flex;
+}
+
+.nav-list p {
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.colorlib-social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.small-text {
+    display: block;
+    font-size: 12px;
+    color: gray;
+}
+
+.services li {
+    color: #CA82F8;
+}
+
+#colorlib-about .title-text {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+#colorlib-about .about-icon {}
+
+#colorlib-about .about-icon a {
+    text-align: center;
+}
+
+#colorlib-about .about-icon span {
+    display: block;
+    font-size: 12px;
+}
+
+#colorlib-about .about-icon a:hover i {
+    transition: 0.5s;
+    color: black;
+}
+
+#colorlib-about .about-icon a:hover span {
+    text-decoration: underline;
+}
+
+.works-text {
+    margin-bottom: 4em;
+}
+
+.works-text b {
+    color: #CA82F8;
+}
+
+footer .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
